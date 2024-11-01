@@ -1,0 +1,15 @@
+.header {
+    max-width: calc(100% - 96px);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+    margin-left: 48px;
+    margin-right: 48px;
+    align-items: center;
+}
+@media (max-width: 320px) {
+    .header {
+        margin: 16px auto 48px auto;
+        max-width: calc(100% - 30px);
+    }
+}
