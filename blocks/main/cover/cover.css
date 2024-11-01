@@ -2,3 +2,13 @@
     max-width: 1184px;
     margin: 0 auto;
 }
+.cover__title,
+.cover__subtitle {
+    position: relative;
+    color: white;
+    z-index: 2;
+    margin: 0;
+    padding: 10px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
