@@ -2,12 +2,14 @@
     color: #fff;
     text-decoration: none;
     font-size: 24px;
+
     transition: .4s;
 }
 
 @media (max-width: 320px) {
     .header__lang-link {
-        font-size: 18px;
+        font-size: 5.625vw;
+        line-height: 8.75px;
     }
 }
 

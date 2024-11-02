@@ -32,14 +32,16 @@
     opacity: 0.5;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .cover__overlay {
-        min-height: 480px;
+        min-height: 62.5vw;
     }
 }
 
+
+
 @media (max-width: 320px) {
     .cover__overlay {
-        min-height: 320px;
+        min-height: 200px;
     }
 }

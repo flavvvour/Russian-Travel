@@ -9,13 +9,21 @@
 
 @media (max-width: 1024px) {
     .footer {
+        
         max-width: 928px;
     }
 }
 
 @media (max-width: 768px) {
     .footer {
-        max-width: 720px;
+        max-width: calc(100% - 48px);
         margin-top: 64px;
     }
+}
+
+@media (max-width: 700px) {
+	.footer {
+	  flex-direction: column;
+	  align-items: flex-start;
+	}
 }
